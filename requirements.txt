@@ -1,7 +1,8 @@
-streamlit==1.28.1
+streamlit==1.53.1
+numpy
+pandas
 plotly
 seaborn
-sklearn
-plotly
-pandas
-numpy
+matplotlib
+scikit-learn
+xgboost
