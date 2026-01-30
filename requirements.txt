@@ -13,3 +13,4 @@ shap
 statsmodels
 geopandas
 contextily
+prophet
