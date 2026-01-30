@@ -1,16 +1,38 @@
-streamlit==1.53.1
-numpy
-pandas
-plotly
-seaborn
-matplotlib
-scikit-learn
-xgboost
-scipy
-joblib
-lightgbm
-shap
-statsmodels
-geopandas
-contextily
-prophet
+# Core Data Processing & Analysis
+pandas==2.1.4
+numpy==1.26.3
+scipy==1.11.4
+
+# Web Framework
+streamlit==1.31.1
+
+# Machine Learning & Modeling
+scikit-learn==1.3.2
+xgboost==2.0.3
+lightgbm==4.1.1
+shap==0.45.0
+
+# Time Series Forecasting
+statsmodels==0.14.0
+prophet==1.1.5
+
+# Geospatial Analysis
+geopandas==0.14.1
+contextily==1.3.0
+
+# Data Visualization
+plotly==5.18.0
+seaborn==0.13.1
+matplotlib==3.8.2
+
+# Model Serialization
+joblib==1.3.2
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Optional but recommended
+pandas-profiling==3.6.1
+# For better performance and additional features
+python-dotenv==1.0.0
