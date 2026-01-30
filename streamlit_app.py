@@ -1213,9 +1213,9 @@ def perform_statistical_analysis(df):
     # 2. Distribution Analysis Insights
     for col in numeric_cols[:10]:
         if col in additional_stats:
-            stats = additional_stats[col]
-            skew = stats['skewness']
-            cv = stats['cv']
+            stat_info = additional_stats[col]
+            skew = stat_info['skewness']
+            cv = stat_info['cv']
             
             if abs(skew) > 1:
                 insight = f"**{col}**: Highly skewed distribution (skewness={skew:.2f}) - Consider transformation for modeling"
